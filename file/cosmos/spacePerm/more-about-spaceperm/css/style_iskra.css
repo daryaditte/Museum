@@ -1,0 +1,133 @@
+.header img{
+    width: 100%;
+}
+
+.conteiner{
+    width: 100%;
+}
+
+.content {
+    font-size: 18pt;
+    padding: 50px;
+}
+
+h2{
+   text-align: center;
+    padding: 10px;
+}
+
+.carousel{
+    width: 1000px;
+    margin-left: 20%;
+}
+.carousel-item img{
+    width: 1000px;
+    height: 700px;
+   
+}
+
+.carousel-caption{
+    background-color: black;
+    opacity: 0.8;
+    padding: 20px;
+    color:black;
+}
+
+.carousel-caption h5{
+   font-size: 24pt;
+}
+
+.bulava{
+    float: left;
+    margin-left: 10%;
+}
+.topol{
+    width: 800px;
+}
+
+.dvig15{
+    margin-left: 350px;
+}
+
+.dvig15_2{
+    width: 120px;
+}
+
+.rocket1561{
+    float: left;
+    margin-left: 300px;
+}
+
+.alan1{
+    margin-left: 300px;
+}
+
+.alan2{
+    width: 640px;
+}
+
+.bjrk{
+    width: 500px;
+}
+
+.f-right{
+    margin-top: -170px;
+    float: right;
+}
+
+.f-left{
+    width: 1200px;
+}
+
+.dnepr{
+    margin-top: 130px;
+}
+.dnepr img{
+   width: 400px;
+    height: 500px;
+}
+
+.buran-img img:nth-child(1){
+    margin-left: 300px;
+}
+
+.stand3{
+    width: 700px;
+    margin-left: -80px;
+    margin-top: 250px;
+}
+.stand2{
+    width: 500px;
+}
+.stand1{
+    width: 500px;
+    margin-left: -80px;
+    margin-top: 150px;
+}
+.soplo{
+    
+}
+.soplo img{
+    width: 350px;
+}
+
+.back{
+    margin: 50px;
+}
+.back img{
+    width: 50px;
+    height: 50px;
+}
+
+.back a{
+    color: black;
+    font-size: 16pt;
+    font-family:cursive;
+}
+
+.back a:hover{
+   text-decoration: none; 
+    color: black;
+}
+
+

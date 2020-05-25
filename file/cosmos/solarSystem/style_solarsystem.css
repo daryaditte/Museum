@@ -1,0 +1,265 @@
+html, body, div, ul, li{
+    margin:0;
+    padding: 0;
+    color:white;
+}
+body{
+    background-image: url(img_solarsystem/CL_dani-svemira-u-tehni%C4%8Dkom-muzeju_naslovna.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+	font-size: 42pt;
+}
+ul{
+    margin-left: -100px;
+}
+li{
+    list-style: none;
+}
+#map{
+    position: relative;
+    width: 1000px;
+    height:799px;
+    background-image: url(img_solarsystem/system.jpeg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+    border: 2px inset orange;
+    border-radius: 10px 20px;   
+    
+}
+
+planet{
+    position:absolute;
+    top:30px;
+    left: 30px;
+}
+
+input[name='planet']{
+    position: absolute;
+}
+#Sun{
+    top:300px;
+    left:150px;
+    transform: scale(30);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Mercury{
+    top:407px;
+    left:67px;
+    transform: scale(1.5);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Venus{
+    top:335px;
+    left:399px;
+    transform: scale(4);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Earth{
+    top:400px;
+    left:350px;
+    transform: scale(5);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Mars{
+    top:460px;
+    left:240px;
+    transform: scale(4);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Jupiter{
+    top:380px;
+    left:585px;
+    transform: scale(8.5);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Saturn{
+    top:520px;
+    left:525px;
+    transform: scale(9);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Uranus{
+    top:370px;
+    left:860px;
+    transform: scale(3.5);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Neptune{
+    top:560px;
+    left:830px;
+    transform: scale(5);
+    opacity: 0.2;
+    cursor: pointer;
+}
+#Pluto{
+    top:525px;
+    left:955px;
+    transform: scale(3);
+    opacity: 0.2;
+    cursor: pointer;
+}
+.rocket img{
+    position: absolute;
+    width:60px;
+    transition: all ease 2s;
+}
+#Sun:checked ~.rocket img{
+    top:386px;
+    left:142px;
+}
+#Mercury:checked ~.rocket img{
+    top:407px;
+    left:67px;
+}
+#Venus:checked ~.rocket img{
+    top:335px;
+    left:399px;
+}
+#Earth:checked ~.rocket img{
+    top:400px;
+    left:350px;
+}
+#Mars:checked ~.rocket img{
+    top:460px;
+    left:240px;
+}
+#Jupiter:checked ~.rocket img{
+    top:370px;
+    left:560px;
+}
+#Saturn:checked ~.rocket img{
+    top:520px;
+    left:525px;
+}
+#Uranus:checked ~.rocket img{
+    top:370px;
+    left:860px;
+}
+#Neptune:checked ~.rocket img{
+    top:560px;
+    left:830px;
+}
+#Pluto:checked ~.rocket img{
+    top:525px;
+    left:955px;
+}
+
+.kosmonavt{
+    width:200px;
+    margin-left: -120px;
+    margin-top: 150px;
+    border: 2px inset orange;
+    border-radius: 10px 20px;   
+    opacity: 50%;
+}
+.modal_img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.text{
+    color:black;
+}
+h5{
+    text-align: center;
+}
+#modal_Sun{
+    background-image: url(img_solarsystem/315347.jpg);
+}
+
+#modal_Mercury{
+    background-image: url(img_solarsystem/merc.jpg);
+    background-size: cover;
+}
+
+#modal_Venus{
+    background-image: url(img_solarsystem/venjus.jpg);
+    background-size: cover;
+}
+
+#modal_Earth{
+    background-image: url(img_solarsystem/earth3.jpg);
+    background-size: cover;
+}
+
+#modal_Mars{
+    background-image: url(img_solarsystem/mars2.jpg);
+    background-size: cover;
+}
+
+#modal_Jupiter{
+    background-image: url(img_solarsystem/jup2.jpg);
+    background-size: cover;
+}
+
+#modal_Saturn{
+    background-image: url(img_solarsystem/saturn1.jpg);
+    background-size: cover;
+}
+
+#modal_Uranus{
+    background-image: url(img_solarsystem/Planeta-Uran.jpg);
+    background-size: cover;
+}
+
+#modal_Neptune{
+    background-image: url(img_solarsystem/Neptune2.jpg);
+    background-size: cover;
+}
+
+#modal_Pluto{
+    background-image: url(img_solarsystem/pluton2.jpg);
+    background-size:auto;
+}
+
+.back-to-home{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+   
+}
+
+.backward{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.back a{
+    color: white;
+    font-size: 16pt;
+    font-family:cursive;
+    margin-right: 50px;
+}
+
+.back a:hover{
+   text-decoration: none; 
+    color: white;
+}
+
+.back{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+

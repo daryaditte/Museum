@@ -1,0 +1,182 @@
+body{
+    background-image: url(../img_aviation/background_p.jpg);
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+h1{
+	margin: 0 auto;
+    font-size: 42pt;
+	padding: 30px;
+    text-shadow: 0px 0px 0px #fff, 15px 10px 0px rgba(0,0,0,0.45);
+    color:aliceblue;
+    text-transform: uppercase;
+    letter-spacing:2em;
+}
+.col-12{
+	text-align:center;
+}
+
+.zero{
+    background: url('../img_aviation/headotto.jpg');
+	background-size: cover;
+    height: 350px;
+    color: #FFFFFF;
+	text-shadow: 
+		-0   -4px 0   #000000,
+		 0   -4px 0   #000000,
+		-0    4px 0   #000000,
+		 0    4px 0   #000000,
+		-4px -0   0   #000000,
+		 4px -0   0   #000000,
+		-4px  0   0   #000000,
+		 4px  0   0   #000000,
+		-1px -4px 0   #000000,
+		 1px -4px 0   #000000,
+		-1px  4px 0   #000000,
+		 1px  4px 0   #000000,
+		-4px -1px 0   #000000,
+		 4px -1px 0   #000000,
+		-4px  1px 0   #000000,
+		 4px  1px 0   #000000,
+		-2px -4px 0   #000000,
+		 2px -4px 0   #000000,
+		-2px  4px 0   #000000,
+		 2px  4px 0   #000000,
+		-4px -2px 0   #000000,
+		 4px -2px 0   #000000,
+		-4px  2px 0   #000000,
+		 4px  2px 0   #000000,
+		-3px -4px 0   #000000,
+		 3px -4px 0   #000000,
+		-3px  4px 0   #000000,
+		 3px  4px 0   #000000,
+		-4px -3px 0   #000000,
+		 4px -3px 0   #000000,
+		-4px  3px 0   #000000,
+		 4px  3px 0   #000000,
+		-4px -4px 0   #000000,
+		 4px -4px 0   #000000,
+		-4px  4px 0   #000000,
+		 4px  4px 0   #000000,
+		-4px -4px 0   #000000,
+		 4px -4px 0   #000000,
+		-4px  4px 0   #000000,
+		 4px  4px 0   #000000;
+		border: 2px outset darkslategrey;
+		
+}
+
+.one {
+	background: url('../img_aviation/rait.jpg');
+	background-size: cover;
+}
+
+.two {
+	background: url('../img_aviation/samolet-ilya-muromets-sikorskiy-i-i-3.jpg');
+	background-size: cover;
+}
+
+.three {
+	background: url('../img_aviation/y-2%20(3).jpg');
+	background-size: cover;
+}
+
+.four {
+	background: url('../img_aviation/il2(3).jpg');
+	background-size: cover;
+}
+
+.five {
+	background: url('../img_aviation/il18_2(5).jpg');
+	background-size: cover;
+
+}
+
+.six {
+	background: url('../img_aviation/ra-96005-aeroflot-russian-airlines-ilyushin-il-96_4.jpg');
+	background-size: cover;
+}
+
+.col-3 {
+	display: flex;
+	align-items: center;
+    color: #FFFFFF;
+	text-shadow: 
+		-0   -4px 0   #000000,
+		 0   -4px 0   #000000,
+		-0    4px 0   #000000,
+		 0    4px 0   #000000,
+		-4px -0   0   #000000,
+		 4px -0   0   #000000,
+		-4px  0   0   #000000,
+		 4px  0   0   #000000,
+		-1px -4px 0   #000000,
+		 1px -4px 0   #000000,
+		-1px  4px 0   #000000,
+		 1px  4px 0   #000000,
+		-4px -1px 0   #000000,
+		 4px -1px 0   #000000,
+		-4px  1px 0   #000000,
+		 4px  1px 0   #000000,
+		-2px -4px 0   #000000,
+		 2px -4px 0   #000000,
+		-2px  4px 0   #000000,
+		 2px  4px 0   #000000,
+		-4px -2px 0   #000000,
+		 4px -2px 0   #000000,
+		-4px  2px 0   #000000,
+		 4px  2px 0   #000000,
+		-3px -4px 0   #000000,
+		 3px -4px 0   #000000,
+		-3px  4px 0   #000000,
+		 3px  4px 0   #000000,
+		-4px -3px 0   #000000,
+		 4px -3px 0   #000000,
+		-4px  3px 0   #000000,
+		 4px  3px 0   #000000,
+		-4px -4px 0   #000000,
+		 4px -4px 0   #000000,
+		-4px  4px 0   #000000,
+		 4px  4px 0   #000000,
+		-4px -4px 0   #000000,
+		 4px -4px 0   #000000,
+		-4px  4px 0   #000000,
+		 4px  4px 0   #000000;
+		border: 2px outset darkslategrey;
+    
+		
+}
+
+.blocks{
+   margin-left: 15%;
+}
+
+a {
+    display: block; 
+    text-align: center; 
+    height: 100%;
+    width: 100%;
+    margin:0 auto;
+	font-size: 32pt;
+    color: white;
+    font-weight: 1000;
+    padding-top: 150px;
+}
+
+a:hover{
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    color:darkseagreen;
+}
+
+.back-to-home{
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.back{
+    padding-top: 30px;
+}

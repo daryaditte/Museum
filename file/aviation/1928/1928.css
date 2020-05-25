@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img1928/u12032_7461_01366.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center; 
+    padding: 30px;
+    font-size: Tahoma;
+    
+}
+.container {
+    width: 100%;
+    max-width: 1500px; 
+    margin: 0 auto;
+    display: block;
+}
+.img {
+    width: 24.5%;
+    display: inline-block;
+}
+
+.img img {
+    width: 100%;
+    height: 250px;
+    border: 1.5px dotted grey;
+}
+
+.row2 {
+    margin-left: 10%;
+}
+
+.row2 div{
+    width: 30%;
+}
+
+span {
+    position: absolute;
+    margin: 198px 0px;
+    background-color:dimgrey;
+    font-size: 22pt; 
+    color:white;
+    padding: 10px;
+    letter-spacing: 3px;
+    font-size: Tahoma;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+/* кнопки назад */
+
+.back-to-home, .backward {
+    width: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.back a{
+    color: black;
+    font-size: 18pt;
+    font-family:cursive;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.back a:hover{
+   text-decoration: none; 
+    color: black;
+}
+
+.back{
+   margin-top: 50px;
+    margin-left: 35%;
+    font-weight: bold;
+    display: table;
+    vertical-align: middle;
+}

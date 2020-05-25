@@ -1,0 +1,90 @@
+body{
+    background-image: url(../file/img_aviation/ty.jpg);
+    background-size: cover;
+}
+.wrap{
+    width:100%;
+}
+input{ 
+    width:95%;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid dimgrey;
+    font-size: 12pt;
+    font-family:sans-serif;
+}
+
+input:focus{
+    border-radius: 10px;
+    border: 1px solid blue;
+    transition: all 0.3s ease;
+    border-color: aliceblue;
+}
+
+button{
+    width: 99%;
+    min-height: 40px;
+    margin-top: 5px;
+    font-family: Tahoma;
+    font-size: 13pt;
+    background-color: darkseagreen;
+    border: 1px solid grey;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.add-plane{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.fighters{
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+.bombers{
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+.storm{
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+.seaplane{
+    width: 100%;
+    float: left;
+    margin-right: 1%;
+}
+
+.auxiliary{
+    width: 100%;
+    float: left;
+}
+.people{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.pilots{
+    float: left;
+    margin-right: 1%;
+}
+
+.constructors{
+    float: left;
+    margin-right: 1%;
+}

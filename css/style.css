@@ -1,0 +1,69 @@
+﻿body{
+    background: url('video.png');
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top:0;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+
+.wrap{
+   
+}
+
+h1{
+	color:white;
+	text-align: center;
+	font-size:40pt;   
+	text-transform:uppercase;
+	font-weight:900;
+    margin-top: 40%;
+    line-height: 1.5;
+    
+}
+
+.cosmos-button-transition,
+.aviation-button-transition {
+    display: inline-block;
+    width: 400px;
+	height:160px;
+    padding: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+                color 0.2s ease-out;
+    font-size: 46pt;
+	text-transform:uppercase;
+	font-weight:900;
+}
+.cosmos-button-transition:hover, 
+.aviation-button-transition:hover
+ {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in,
+                color 0.3s ease-in;
+}
+
+a:hover{
+    text-decoration: none;
+}

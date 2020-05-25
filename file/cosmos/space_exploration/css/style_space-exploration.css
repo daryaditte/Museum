@@ -1,0 +1,515 @@
+
+/*
+=====================================================
+--------------- VerticalTab Tabs -----------------
+=====================================================
+*/
+
+.tabs_scroll {
+    height: auto;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.nicescroll-rails {
+	width: 12px !important;
+    background: rgba(0,0,0,0.1) !important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+
+
+/*
+--------------- Tabs Style ------------------
+*/
+
+.resp-tabs-list {
+	padding: 22.5% 0px!important;
+}
+
+.VerticalTab.tabs_ver_6.resp-vtabs ul.resp-tabs-list {
+    float: right!important;
+    width: 22%;
+	margin-top: -150px !important;
+    margin-right: 150px;
+    
+}
+.VerticalTab.tabs_ver_6.resp-vtabs .resp-tabs-container {
+	padding: 0px;
+	background-color: transparent;
+	border: 0;
+	float: left;
+	width: 65%;
+	min-height: auto;
+	clear: none;
+	border-radius: 0;
+	margin-left: 13px;
+	
+}
+.VerticalTab.tabs_ver_6 .resp-tabs-list li {
+	margin: 10px 0px;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	font-size: 24px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #121212;
+    
+}
+
+.VerticalTab.tabs_ver_6 .resp-tabs-list .resp-tab-active {
+	margin: 10px 0px!important;
+	color: #f78b26;
+	border: none!important;
+}
+.VerticalTab.tabs_ver_6 .resp-tabs-list li:hover {
+	color: #f78b26;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.VerticalTab.tabs_ver_6 .resp-tabs-list li i {
+	font-size: 22px;
+	-webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	-moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	display: inline-block;
+	cursor: pointer;
+	margin: 0;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	border-radius: 50%;
+	-o-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	display: block;
+	color: #fff;
+	margin-bottom: 5px;
+	transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.row{
+    width: 100%;
+}
+
+.page_wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.image-bg {
+	background-image: url(../img/oboi-kosmos-4k-dlya-rabochego-stola.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.first_text{
+    margin-top:400px;
+    margin-bottom: 20px;
+}
+
+.second_text{
+    margin-left:350px;
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+.third_text{
+    margin-left:350px;
+    margin-top: 80px;  
+}
+
+.four_text{
+    margin-left:350px;
+    margin-top: 50px;  
+    margin-bottom: 0px;
+}
+
+.six_text{
+    margin-left:350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.seven_text{
+    margin-left:350px;
+    margin-top: 100px;  
+    margin-bottom: 0px; 
+}
+
+.eight_text{
+    margin-top: 50px;
+    margin-left:350px;
+}
+
+.nine_text{
+    margin-left:350px;
+    margin-top: 40px;
+    margin-bottom: 700px;
+}
+
+
+.inner p{
+    font-size: 16pt;
+}
+
+.people{
+    margin-top: 700px;
+}
+.people p{
+    margin-top: 900px;
+}
+
+h2{
+    color:black; 
+    text-align: center;
+    margin-top: 50px;
+}
+
+.photo-dog{ 
+    width: 330px;
+    float: left;
+    margin-top: 90px;
+}
+
+.photo-dog2{ 
+    width: 330px;
+    float: left;
+    margin-top: 60px;
+}
+
+.photo-dog3{ 
+    width: 330px;
+    float: left;
+    margin-top: 20px;
+}
+
+.buran{
+    margin-top: 100px;
+}
+
+.angara{
+    margin-top: 600px;
+    width: 800px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.modal img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 48pt;
+    font-weight: bold;
+}
+
+.spoiler{
+    width: 80%;
+}
+
+.spoiler-dog{
+    width: 80%;
+    margin-top: -30px;
+}
+
+.col-md-12{
+	width:1500px;
+}
+ .resp-tab-content {
+    padding: 0;
+    overflow: hidden;
+    margin-left: -200px;
+}
+
+ .home-container {
+     width: 100%;
+  margin-top: 10%;
+  background-color: #fff;
+}
+
+ .home-container .left-content {
+    padding-top: 15%;
+    padding-left: 35px;
+}
+
+ .home-container .left-content h2 {
+    font-size: 32px;
+    letter-spacing: 0.5px;
+    color: #121212;
+    text-transform: uppercase;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.home-container .left-content p {
+    margin-top: 30px;
+    font-size: 15pt;
+    font-style: italic;
+    color: #343434;
+}
+
+.home-container .right-content {
+    margin-bottom: 0px;
+}
+
+.img-rocket {
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom:-50px;
+}
+
+.img-dog img{
+    margin-top: 85px;
+    margin-left: 30px;
+}
+.img-dog{
+    background-color: black;
+    height: 480px;
+    width:600px;
+}
+.btn-rocket{
+    margin-left: 30px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+	width:150px;
+	height: 50px;
+	font-size:12pt;
+}
+
+.btn-dog{
+    margin-left: 30px;
+    margin-top: -50px;
+	width:150px;
+	height: 50px;
+	font-size:12pt;
+}
+
+.more-about-rocket{
+    padding: 30px;
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.more-about-dog{
+    padding: 30px;
+    background-image: url(../img/fon-dog.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -65px;
+}
+
+
+.apparat{
+    font-size: 16pt;
+    margin-top: 50px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+.img-apparat img{
+    width: 100%;
+    height: 500px;
+    margin-left: 30px; 
+}
+
+.apparat li {
+    text-align: center;
+    list-style: none;
+    border: 1px solid orange;
+    padding: 10px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+    color: black;
+    
+}
+
+.apparat li:hover {
+    background-color: darkorange;
+     transition: all 1s ease-out;
+}
+
+.btn-secondary{
+    width: 300px;
+    height: 50px;
+    font-size: 18pt;
+}
+
+.btn-secondary:hover{
+    background-color:darkorange;
+    transition: all 1s ease-out;
+}
+
+#info p{
+    font-size: 18pt;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+#modal_mks{
+    background-image: url('../img/luxfon.com_10904.jpg');
+    background-size: cover;
+}
+
+#modal_orbital-station{
+    background-image: url('../img/Skylab.jpg');
+    background-size: cover;
+}
+
+#modal_nlo{
+    background-image: url('../img/9TFQ.gif');
+    background-size: cover;
+}
+
+.fc-tab-2 .row{
+    height: 500px;
+}
+
+h3{
+    font-size: 28pt;
+    text-align: center;
+}
+
+.ufo .col-md-6 img{
+    padding: 0;
+    height:250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.top-content p{
+    font-size: 16pt; 
+    padding: 30px;
+    margin-right: 300px;
+    font-style: italic;
+}
+
+.top-content h2{
+    font-size: 24pt;
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+	color: #121212;
+	margin: 50px 300px 10px 0;
+}
+
+.bottom-content img{
+    width: 80%;
+}
+
+.btn-first{
+    width: 200px;
+    height: 50px;
+    font-size: 12pt;
+    margin-left: 480px;
+    margin-top: -150px;
+}
+
+.first .col-md-4{
+   margin: 10px;
+}
+.first .col-md-4 img{
+    border-radius:15px;
+    margin: 0 auto;
+}
+
+.first .col-md-7 {
+    line-height: 40px;
+}
+
+hr{
+    border: 5px solid transparent;
+    -webkit-border-image: -webkit-linear-gradient(left, transparent 0%, darkorange 100%);
+    -webkit-border-image: linear-gradient(to right, transparent 0%, darkorange 100%);
+    border-image: linear-gradient(to left, transparent 0%, darkorange 100%);
+    border-image-slice: 1;
+}
+
+.fc-tab-3 .spoiler{
+    margin-bottom: -100px;
+} 
+
+.end{
+    margin-bottom: 100px;
+}
+
+.up{
+    font-size: 18pt;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+}
+
+.back-to-home{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+   
+}
+
+.backward{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.back a{
+    color: white;
+    font-size: 16pt;
+    font-family:cursive;
+    margin-right: 50px;
+}
+
+.back a:hover{
+   text-decoration: none; 
+    color: white;
+}
+
+.back{
+    margin-left: -150px;
+    margin-right: 500px;
+}
+
+.col-md-12{
+    width: 1400px;
+}
+
+.up a:hover{
+    text-decoration: none;
+}
+
+.up img{
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:280px;
+    cursor:pointer;
+    width: 80px;
+}
+

@@ -1,0 +1,102 @@
+body{
+    background-image: url('img_universe/Original%20image_%201920x1080.jpg');
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+	font-size:38pt;
+    color:white;
+}
+
+.card-img-top{
+    height: 150px;
+}
+
+.card-text{
+    height:105px;
+}
+
+.card{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+	margin-bottom: 5px;
+}
+
+.back{
+	margin-top:-20px;
+}
+
+
+.modal img {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.modal {
+    font-size: 18pt;
+}
+#modal_aster{
+    background-image: url(img_universe/aster.jpg);
+    background-size: cover;
+}
+
+#modal_galaktik{
+    background-image: url(img_universe/PinnaclesGalaxy_Goh_2400.jpg);
+    background-size: cover;
+}
+
+#modal_star{
+    background-image: url(img_universe/fon.jpg);
+    background-size: cover;
+}
+
+#modal_komet{
+    background-image: url(img_universe/0411171212441dp.jpg);
+    background-size: cover;
+}
+
+#modal_tum{
+    background-image: url(img_universe/tum2.jpg);
+    background-size: cover;
+}
+
+#modal_black{
+    background-image: url(img_universe/blackd.jpg);
+    background-size: cover;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+}
+
+.back-to-home{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+   
+}
+
+.backward{
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.back a{
+    color: black;
+    font-size: 16pt;
+    font-family:cursive;
+    margin-right: 50px;
+}
+
+.back a:hover{
+   text-decoration: none; 
+    color: black;
+}
